@@ -1,15 +1,15 @@
-// ====== CONFIG (REMPLACE ICI) ======
 const CONFIG = {
-  youtubeChannel: "https://www.youtube.com/@TONPSEUDO", // <-- mets ton lien chaîne
-  instagram: "https://instagram.com/toninsta",          // <-- mets ton insta
-  email: "tonmail@gmail.com",                           // <-- mets ton mail
-  paypalMe: "https://paypal.me/tonpaypal",              // <-- ou un lien PayPal checkout
+  youtubeChannel: "https://www.youtube.com/@hemsi06",
+  instagram: "https://www.instagram.com/hemsi06/",
+  email: "hemsi.contact@gmail.com",
+  paypalMe: "https://paypal.me/clementmc34",
   prices: {
     basic: 25,
     wav: 40,
     unlimited: 80
   }
 };
+
 
 // ====== Init links ======
 document.getElementById("year").textContent = new Date().getFullYear();
@@ -81,3 +81,4 @@ function applyFilters() {
 
 searchEl.addEventListener("input", applyFilters);
 filterEl.addEventListener("change", applyFilters);
+
